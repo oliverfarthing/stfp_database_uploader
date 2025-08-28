@@ -1,0 +1,6 @@
+open sftp://unity:Hee5Boh7apae3esee8ah;x-publickeyfile=E%3A%5CImportData%5CUnitySentinel-Update%5CUnityPrivateKey3.ppk@fileshare.anchor.co.uk/ -hostkey=acceptnew
+option transfer binary
+option confirm off
+get -latest *.7z "E:\ImportData\UnitySentinel-Update\download\*.7z"
+close
+exit
